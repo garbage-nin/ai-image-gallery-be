@@ -13,7 +13,6 @@ app.get("/", (_req, res) => {
   res.send("✅ API is running!");
 });
 
-// Register routes
 app.use("/api/images", imageRoutes);
 
 const PORT = process.env.PORT || 3000;
