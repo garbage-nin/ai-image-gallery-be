@@ -60,6 +60,7 @@ export async function uploadImages(req: Request, res: Response) {
   }
 }
 
+function generateTags(imageData: any) {}
 export async function getUserImages(req: Request, res: Response) {
   try {
     const userId = req.params.userId;
